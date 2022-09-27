@@ -22,8 +22,3 @@ apt-get install -y iotech-xrt-2.0
 apt-get install -y mosquitto-clients
 apt-get install -y mosquitto
 
-#export XRT_LICENSE_FILE=/vagrant/license.json
-#source /opt/iotech/xrt/2.0/bin/env.sh
-
-# xrt example
-# https://github.com/IOTechSystems/xrt-examples/tree/v2.0-branch/DeviceServices/bacnet-ip

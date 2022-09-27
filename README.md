@@ -1,10 +1,10 @@
 # xrt-vagrant
-XRT Vagrant
+This is demo for an example of XRT device service using Vagrant
 
 ## Prerequisites
 - clone `https://github.com/IOTechSystems/xrt-examples.git`
 - ensure have a valid XRT license file (e.g. `license.json`)
-- now should have the following files and directory: `bootstrap.sh  license.json  README.md  Vagrantfile  xrt-examples`
+- now should have the current files and directory: `bootstrap.sh  license.json  README.md  Vagrantfile  xrt-examples`
 
 ## Create the XRT VM
 - `$ vagrant up`
