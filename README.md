@@ -1,2 +1,20 @@
 # xrt-vagrant
 XRT Vagrant
+
+## Prerequisites
+- clone `https://github.com/IOTechSystems/xrt-examples.git`
+- ensure have a valid XRT license file (e.g. `license.json`)
+- now should have the following files and directory: `bootstrap.sh  license.json  README.md  Vagrantfile  xrt-examples`
+
+## Create the XRT VM
+- `$ vagrant up`
+- `$ vagrant ssh`
+- `vagrant@master:~$ echo ${XRT_LICENSE_FILE}`
+- `vagrant@master:~$ which xrt`
+
+## Run an XRT Example (e.g. BACnet/IP Device Service)
+- `vagrant@master:~$ cd /vagrant/xrt-examples/DeviceServices/bacnet-ip`
+- `vagrant@node1:/vagrant/xrt-examples/DeviceServices/bacnet-ip$ ./commands/start_device_sim.sh`
+- `vagrant@node1:/vagrant/xrt-examples/DeviceServices/bacnet-ip$ export BACNET_IP_SIM_ADDRESS=192.168.33.10`
+- `vagrant@node1:/vagrant/xrt-examples/DeviceServices/bacnet-ip$ . ./commands/set_env_vars.sh`
+- `vagrant@node1:/vagrant/xrt-examples/DeviceServices/bacnet-ip$ xrt ./deployment/config/`
