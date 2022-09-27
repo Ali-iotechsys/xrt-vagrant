@@ -1,5 +1,5 @@
 # xrt-vagrant
-This is demo for an example of XRT device service using Vagrant
+This repo shows how to setup an XRT VM using Vagrant, and run an XRT example
 
 ## Prerequisites
 - clone this repo, and change directory to `xrt-vagrant`
