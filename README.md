@@ -9,7 +9,7 @@ This repo shows how to setup a number of XRT VMs using Vagrant, and run XRT exam
 
 ## Create XRT VM(s)
 - `$ NODE_COUNT=1 vagrant up`
-- `$ vagrant ssh`
+- `$ vagrant ssh node1`
 - `vagrant@node1:~$ echo ${XRT_LICENSE_FILE}`
 - `vagrant@node1:~$ which xrt`
 
