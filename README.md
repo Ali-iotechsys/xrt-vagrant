@@ -8,6 +8,7 @@ This repo shows how to setup a number of XRT VMs using Vagrant, and run XRT exam
 - now should have the current files and directory: `bootstrap.sh  license.json  README.md  Vagrantfile  xrt-examples`
 
 ## Create XRT VM(s)
+The following instuctions are to create one XRT node, you can set `NODE_COUNT` if need more than one node:
 - `$ NODE_COUNT=1 vagrant up`
 - `$ vagrant ssh node1`
 - `vagrant@node1:~$ echo ${XRT_LICENSE_FILE}`
