@@ -3,7 +3,7 @@ This repo shows how to setup a number of XRT VMs using Vagrant, and run XRT exam
 
 ## Prerequisites
 - clone this repo, and change directory to `xrt-vagrant`
-- clone `https://github.com/IOTechSystems/xrt-examples.git`
+- clone [XRT Examples Repo](https://github.com/IOTechSystems/xrt-examples)
 - ensure have a valid XRT license file (e.g. `license.json`)
 - now should have the current files and directory: `bootstrap.sh  license.json  README.md  Vagrantfile  xrt-examples`
 
