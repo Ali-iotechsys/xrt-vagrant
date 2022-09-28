@@ -17,7 +17,7 @@ This repo shows how to setup a number of XRT VMs using Vagrant, and run XRT exam
 The following instuctions are to run BACnet/IP Device Service:
 - `vagrant@node1:~$ cd /vagrant/xrt-examples/DeviceServices/bacnet-ip`
 - `vagrant@node1:/vagrant/xrt-examples/DeviceServices/bacnet-ip$ ./commands/start_device_sim.sh`
-- `vagrant@node1:/vagrant/xrt-examples/DeviceServices/bacnet-ip$ export BACNET_IP_SIM_ADDRESS=192.168.33.11`
+- `vagrant@node1:/vagrant/xrt-examples/DeviceServices/bacnet-ip$ export BACNET_IP_SIM_ADDRESS=192.168.33.11 # use 192.168.33.12 for node2, if needed`
 - `vagrant@node1:/vagrant/xrt-examples/DeviceServices/bacnet-ip$ . ./commands/set_env_vars.sh`
 - `vagrant@node1:/vagrant/xrt-examples/DeviceServices/bacnet-ip$ xrt ./deployment/config/`
 
